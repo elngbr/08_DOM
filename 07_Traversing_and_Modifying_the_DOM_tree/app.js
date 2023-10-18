@@ -10,5 +10,5 @@ function adaugareProdusLaLista(e) {
   var productListItem = document.createElement("li");
   productListItem.innerHTML = inputValue;
   console.log(productListItem);
-  productsListElement.appendChild(productListItem);
+  productsListElement.appendChild(productListItem);   ///vezi functia asta
 }
